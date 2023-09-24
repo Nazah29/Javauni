@@ -19,7 +19,7 @@ public class Ejercicio4 {
             producto*=acumulador;
             acumulador++;
         }
-        System.out.println(producto);
+        System.out.println("la multiplicacion entre esos numeros seria " + producto);
     }
     
 }
