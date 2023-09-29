@@ -1,4 +1,3 @@
-package Semana5;
 
 import java.util.Scanner;
 

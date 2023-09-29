@@ -1,13 +1,12 @@
-package Semana5;
 
 import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        Scanner lector =new Scanner(System.in);
+        Scanner lector = new Scanner(System.in);
         int numero = -1;
-        int acumulador =1;
-        int producto =1;
+        int acumulador = 1;
+        int producto = 1;
 
         while (numero < 0) {
             System.out.println("Ingrese un numero positivo");
@@ -15,11 +14,11 @@ public class Ejercicio4 {
             lector.nextLine();
         }
         System.out.println("Usted ingresó: " + numero);
-        while (acumulador<=numero) {
-            producto*=acumulador;
+        while (acumulador <= numero) {
+            producto *= acumulador;
             acumulador++;
         }
         System.out.println("la multiplicacion entre esos numeros seria " + producto);
     }
-    
+
 }

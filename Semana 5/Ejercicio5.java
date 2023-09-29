@@ -1,4 +1,3 @@
-package Semana5;
 
 import java.util.Scanner;
 
@@ -26,11 +25,10 @@ public class Ejercicio5 {
         }
 
         if (contador > 0) {
-             promedio= acumulador / contador; // Calcula el promedio
+            promedio = acumulador / contador; // Calcula el promedio
             System.out.println("El promedio de los números positivos ingresados es: " + promedio);
         } else {
             System.out.println("No se ingresaron números positivos para calcular el promedio.");
         }
     }
 }
-

@@ -1,4 +1,3 @@
-package Semana5;
 
 import java.util.Scanner;
 
@@ -11,7 +10,7 @@ public class Ejercicio3 {
         int contador = 0;
         boolean numerosIncorrectos = true;
 
-        while (numerosIncorrectos){
+        while (numerosIncorrectos) {
             System.out.println("ingrese un rango de numero a sumar: ");
             System.out.println("Desde el numero: ");
             num1 = lector.nextInt();
@@ -22,18 +21,18 @@ public class Ejercicio3 {
 
             auxiliar = num1;
 
-            while (auxiliar <= num2){
-                suma += auxiliar ;
-                contador++ ;
+            while (auxiliar <= num2) {
+                suma += auxiliar;
+                contador++;
                 auxiliar++;
-                //System.out.println(auxiliar++);
+                // System.out.println(auxiliar++);
             }
 
-            System.out.println("Numero Inicial:"+num1+"\nNumero final: "+num2);
+            System.out.println("Numero Inicial:" + num1 + "\nNumero final: " + num2);
             numerosIncorrectos = num1 <= 0 || num2 <= 0;
 
         }
-        System.out.println("La suma de todos los numeros es: "+ suma);
-        System.out.println("lo cantidad de numeros sumados son:"+ contador);
+        System.out.println("La suma de todos los numeros es: " + suma);
+        System.out.println("lo cantidad de numeros sumados son:" + contador);
     }
 }
