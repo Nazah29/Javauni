@@ -36,6 +36,7 @@ public class Unidimensional2 {
             System.out.print("Poscicion " + j + ":" + arregloprecio[j]);
 
         }
+        
 
     }
 }
