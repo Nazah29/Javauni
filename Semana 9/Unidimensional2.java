@@ -15,27 +15,25 @@ public class Unidimensional2 {
         lector.nextLine();
         arreglo = new String[longitud];
         for (int i = 0; i < arreglo.length; i++) {
-            System.out.println("Ingrese el componente numero " + i);
+            System.out.println("Ingrese el componente numero " + (i+1) );
             arreglo[i] = lector.nextLine();
         }
         arregloprecio = new String[longitud];
         System.out.println("Ahora ingresa los precios");
         for (int j = 0; j < arreglo.length; j++) {
-            System.out.println("Ingresa el precio en la poscicion numero" + j);
+            System.out.println("Ingresa el precio en la poscicion numero " + (j+1));
             arregloprecio[j] = lector.nextLine();
         }
 
        
         System.out.println("Recibo");
         System.out.println("**************************");
-         for (int i = 0; i < arreglo.length; i++) {
-            System.out.println("Poscicion " + i + ":" + arreglo[i]);
+        
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.printf("Componente: %-20s Precio: %s%n", arreglo[i], arregloprecio[i]);
         }
+        
         System.out.println("***************************************");
-        for (int j = 0; j < arreglo.length; j++) {
-            System.out.print("Poscicion " + j + ":" + arregloprecio[j]);
-
-        }
         
 
     }
