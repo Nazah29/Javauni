@@ -9,6 +9,7 @@ public class Unidimensional2 {
         Scanner lector = new Scanner(System.in);
         int longitud;
         double precios;
+        double suma=0;
         String[] arregloprecio, arreglo;
         System.out.println("Ingresa la cantidada de componentes que tengas en tu pc");
         longitud = lector.nextInt();
@@ -23,6 +24,7 @@ public class Unidimensional2 {
         for (int j = 0; j < arreglo.length; j++) {
             System.out.println("Ingresa el precio en la poscicion numero " + (j+1));
             arregloprecio[j] = lector.nextLine();
+            suma += Double.parseDouble(arregloprecio[j]);
         }
 
        
@@ -34,7 +36,7 @@ public class Unidimensional2 {
         }
         
         System.out.println("***************************************");
-        
+        System.out.println("Se registraron "+ longitud + " componentes su total a pagar seria " + suma + " soles");
 
     }
 }
