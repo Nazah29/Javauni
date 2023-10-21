@@ -8,9 +8,9 @@ public class avance1 {
         char[][] minas = new char[filas][columnas];
         boolean gameOver = false;
         java.util.Random r = new java.util.Random();
-        java.util.Scanner s = new java.util.Scanner(System.in);
+        java.util.Scanner lector = new java.util.Scanner(System.in);
 
-        // Inicializar tablero y colocar minas
+        // Interfaz 4x4 de las minas
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 tablero[i][j] = '-';
@@ -18,7 +18,7 @@ public class avance1 {
             }
         }
 
-        // Colocar minas al azar
+        // Poner minas en aleatorio
         for (int i = 0; i < numMinas; i++) {
             int fila, columna;
             do {
@@ -36,9 +36,9 @@ public class avance1 {
                 System.out.println();
             }
             System.out.print("Ingresa una fila (0-3): ");
-            int fila = s.nextInt();
+            int fila = lector.nextInt();
             System.out.print("Ingresa una columna (0-3): ");
-            int columna = s.nextInt();
+            int columna = lector.nextInt();
 
             if (minas[fila][columna] == 'X') {
                 System.out.println("¡Has perdido! Explotaste una mina.");
