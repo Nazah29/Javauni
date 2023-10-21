@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+
 //Resolver un problema que utilice una estructura do-while usando un contador regresivo
 public class Ejercicio2 {
     public static void main(String[] args) {
