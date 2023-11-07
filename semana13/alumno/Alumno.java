@@ -1,4 +1,5 @@
 package semana13.alumno;
+
 public class Alumno {
     private String foto;
     private String nombre;
