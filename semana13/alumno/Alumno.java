@@ -1,3 +1,4 @@
+package semana13.alumno;
 public class Alumno {
     private String foto;
     private String nombre;
@@ -95,3 +96,4 @@ public class Alumno {
         return (pc1 + pc2 + pc3 + ef) / 4.0;
     }
 }
+
