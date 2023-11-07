@@ -1,4 +1,4 @@
-package semana13.alumno;
+package Semana13.alumno;
 
 public class PruebaAlumno {
     public static void main(String[] args) {
@@ -16,6 +16,9 @@ public class PruebaAlumno {
 
         Alumno alumno4 = new Alumno("c:\\imagenes\\carla.png",
                 "Carla Tello", 25, 16, 18, 14, 15);
+                System.out.println("");
+        System.out.printf("%s tiene sus imagenes en la ruta %s con %d años de edad con su examen final con nota de %d",
+        alumno4.getNombre(), alumno4.getFoto(),alumno4.getEdad(),alumno4.getEf() );
 
     }
 }

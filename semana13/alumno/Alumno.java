@@ -1,4 +1,4 @@
-package semana13.alumno;
+package Semana13.alumno;
 
 public class Alumno {
     private String foto;
