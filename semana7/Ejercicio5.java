@@ -1,4 +1,4 @@
-package semana7
+package semana7;
 import java.util.Scanner;
 
 public class Ejercicio5 {

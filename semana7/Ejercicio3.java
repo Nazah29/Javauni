@@ -1,4 +1,4 @@
-package semana7
+package semana7;
 import java.util.Scanner;
 
 //Resolver un problema que utilice una estructura do-while usando un acumulador progresivo
