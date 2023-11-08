@@ -1,4 +1,4 @@
-package Semana13.alumno;
+package semana13.alumno;
 
 public class PruebaAlumno {
     public static void main(String[] args) {

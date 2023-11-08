@@ -1,4 +1,4 @@
-package Trabajogrupal;
+package trabajogrupal;
 import java.util.Scanner;
 
 public class Trabajo1 {
