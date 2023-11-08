@@ -1,3 +1,4 @@
+package semana9;
 import java.util.Scanner;
 
 public class Unidimensional2 {

@@ -1,3 +1,4 @@
+package semana1.ejercicios;
 import java.util.Scanner;
 
 public class Velocidaddelaluz {
