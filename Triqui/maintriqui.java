@@ -29,3 +29,15 @@ public class maintriqui {
     }
 }
 
+
+
+/**
+ * Descripción del método.
+ * @param parametro Descripción del parámetro.
+ * @return Descripción del valor de retorno.
+ */
+public TipoRetorno miMetodo(TipoParametro parametro) {
+    // ...
+}
+
+
