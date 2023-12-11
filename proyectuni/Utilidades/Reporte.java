@@ -95,7 +95,7 @@ public class Reporte {
      */
     public static void reporteCuerpoEspecial (Tablero tablero,String auxiliar){
         Casilla [][] casillas = tablero.getCasillas();
-        //recorrido para verificar el luagr de las minas
+        //recorrido para verificar el lugar de las minas
         System.out.println(auxiliar);
         for (int i = 0; i < tablero.getNumFilas(); i++) {
             System.out.printf("%s",tablero.getDiseno());
